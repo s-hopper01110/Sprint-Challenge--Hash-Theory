@@ -9,7 +9,9 @@ typedef struct Ticket {
   char *destination;
 } Ticket;
 ```
-where the `source` string represents the starting airport and the `destination` string represents the next airport along our trip. The ticket for your first flight has a destination with a `source` of `NONE`, and the ticket for your final flight has a `source` with a `destination` of `NONE`. 
+where the `source` string represents the starting airport and the `destination` string represents the next airport along our trip. 
+
+The ticket for your first flight has a destination with a `source` of `NONE`, and the ticket for your final flight has a `source` with a `destination` of `NONE`. 
 
 An array of `Tickets` might look like this:
 ```c
